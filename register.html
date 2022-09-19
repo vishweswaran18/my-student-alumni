@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Alumni.css">
+    <head>
+        
+    </head>
+
+    <body class="header">
+        <section >
+            <nav>
+                <a href="http://"><img src="https://www.krce.ac.in/images/logo.png" alt=""></a>
+                <div class="h1">
+                    <ul>
+                        <li><a href="Alumini.html">HOME</a></li>
+                        <li><a href="register.html">ALUMNI</a></li>
+                        <li><a href="https://www.krce.ac.in/vision-mission.php">ABOUT US</a></li>
+                        <li><a href="register.html">CONTACT US</a></li>
+                    </ul>
+                </div>    
+            </nav>
+            <div class="reg" >
+                <h3>ALUMINI REGISTRATION</h3>
+<table align="center" cellpadding = "15">
+ <form action="form.php" method="post" >
+        <!----- First Name ---------------------------------------------------------->
+
+        <td>FIRST NAME</td><br>
+        <td><input type="text" name="First_Name" maxlength="30"/>
+        </td>
+
+        
+        <!----- Last Name ---------------------------------------------------------->
+        <tr>
+        <td>LAST NAME</td>
+        <td><input type="text" name="Last_Name" maxlength="30"/>
+        </td>
+        </tr>
+        
+
+
+        
+        <!----- Email Id ---------------------------------------------------------->
+        <tr>
+        <td>EMAIL ID</td>
+        <td><input type="text" name="Email_Id" maxlength="100" /></td>
+        </tr>
+
+        <!----- Password ---------------------------------------------------------->
+        <tr>
+        <td>PASSWORD</td>
+        <td>
+        <input type="password" name="psw" id="psw" required>
+        </td>
+        </tr>
+
+        <!----- Confirm password ---------------------------------------------------------->
+        <tr>
+            <td>CONFIRM PASSWORD</td>
+            <td>
+        <input type="password" name="psw-repeat" id="psw-repeat" required>
+        </td>
+        </tr>
+
+        <!----- Mobile Number ---------------------------------------------------------->
+        <tr>
+        <td>MOBILE NUMBER</td>
+        <td>
+        <input type="text" name="Mobile_Number" maxlength="10" />
+        </td>
+        </tr>
+        
+        <!----- Gender ----------------------------------------------------------->
+        <tr>
+        <td>GENDER</td>
+        <td>
+        Male <input type="radio" name="Gender" value="Male" />
+        Female <input type="radio" name="Gender" value="Female" /><br/>
+        </td>
+        </tr>
+
+
+            <td>DEPARTMENT</td>
+            <td>
+            CSE <input type="radio" name="Department" value="CSE" />
+            ECE <input type="radio" name="Department" value="ECE" />
+            EEE <input type="radio" name="Department" value="EEE" />
+            CIVIL <input type="radio" name="Department" value="CIVIL" />
+            MECH <input type="radio" name="Department" value="MECH" /><br/>
+            </td>
+            </tr>
+
+        <!----- Year of passed out ---------------------------------------------------------->
+        <tr>
+            <td>YEAR OF PASSED OUT</td>
+            <td>
+            <input type="text" name="Year_of_passed_out" maxlength="04" />
+            </td>
+            </tr>
+
+        <!----- Profession ---------------------------------------------------------->
+        <tr>
+            <td>PROFESSION</td>
+            <td>
+            <input type="text" name="Profession" maxlength="30" />
+            </td>
+            </tr>
+        
+        <!----- Memories ---------------------------------------------------------->
+        <tr>
+        <td>FONDEST MEMORIES OF KRCE  <br /><br /><br /></td>
+        <td><textarea name="Memories" rows="4" cols="30"></textarea></td><br />
+        </tr>
+        
+
+        <!----- MARITAL STATUS ---------------------------------------------------------->
+        
+        <tr>
+        <td>MARITAL STATUS <br /></td>
+
+        <td>
+        Single
+        <input type="checkbox" name="MARITAL_STATUS_SINGLE" value="Single" />
+        Married
+        <input type="checkbox" name="MARITAL_STATUS_MARRIED" value="Married" />
+        </td>
+        </tr>
+        
+        
+        <!----- Submit and Reset ------------------------------------------------->
+        <tr>
+        <td colspan="2" align="center">
+            <button>Submit</button>
+            <button>Reset</button>
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <p>ALREADY HAVE AN ACCOUNT? <br><a href="signup.html">Sign in</a></p>
+        </td>
+        </table>
+ 
+</form>
+</section>
+ 
+</body>
+
+</html>
